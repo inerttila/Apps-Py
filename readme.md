@@ -1,6 +1,6 @@
 # Focalboard Backup Instructions
 
-## This readme is for the [focalboard](https://github.com/mattermost-community/focalboard)
+## This readme is for the [focalboard](https://github.com/mattermost-community/focalboard) project
 
 To create a backup, run the `backup.pyw` file
 To restore a backup, run the `restore.pyw` file
@@ -14,8 +14,6 @@ The "data" directory will be saved at: `/mnt/d/focalboard_TOOLS/data ` which is 
 
 ## Starting the App in WSL
 
-To start the app, run the following command in your WSL environment:
-
 ```
-    docker run -it --name focalboard -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
+docker run -it --name focalboard -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
 ```
