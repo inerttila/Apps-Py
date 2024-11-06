@@ -1,4 +1,4 @@
-# Focalboard Backup Instructions
+# FOCALBOARD-BACKUP
 
 ## This readme is for the [focalboard](https://github.com/mattermost-community/focalboard) project
 
