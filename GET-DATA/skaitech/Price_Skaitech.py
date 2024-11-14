@@ -55,8 +55,8 @@ for product in soup.select('li.product'):
 valid_products = filter_valid_products(product_names, product_prices)
 
 # Write the valid products (with prices) to a text file
-with open('All_Skaitech.txt', 'w') as f:
+with open('3SKAITECH_Products_with_Prices.txt', 'w') as f:
     for name, price in valid_products:
         f.write(f"{name} - {price}\n")
 
-print(f"Extracted {len(valid_products)} valid product names and prices and saved to All_Skaitech.txt.")
+print(f"Extracted {len(valid_products)} valid product names and prices and saved to SKAITECH_Products_with_Prices.txt'")
