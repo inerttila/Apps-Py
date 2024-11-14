@@ -31,8 +31,8 @@ for product in soup.select('span a[title]'):
     product_names.append(name)
 
 # Write the product names to a text file
-with open('text.txt', 'w') as f:
+with open('All_Skaitech.txt', 'w') as f:
     for name in product_names:
         f.write(name + '\n')
 
-print(f"Extracted {len(product_names)} product names and saved to text.txt.")
+print(f"Extracted {len(product_names)} product names and saved to All_Skaitech.txt.")
