@@ -13,8 +13,8 @@ Ensure you start the app with this command before using it or adding data.
 
 The "data" directory will be saved at: `/mnt/d/focalboard_TOOLS/data ` which is mapped from: `/opt/focalboard/data `
 
-## Starting the App in WSL
+## Starting the App in WSL and including the restart comand after the Docker is shutdown/start
 
 ```
-docker run -it --name focalboard -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
+docker run -it --name focalboard --restart unless-stopped -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
 ```
