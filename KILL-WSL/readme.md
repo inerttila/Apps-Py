@@ -1,0 +1,1 @@
+## This app is used to delete the WSL disk and to delete temporary files.

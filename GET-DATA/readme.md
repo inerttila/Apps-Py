@@ -1,0 +1,1 @@
+## These apps are used to scrape data from 3dskai and skaitech webpages, including product names and their prices.
