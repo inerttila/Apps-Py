@@ -39,7 +39,7 @@ The "data" directory will be saved at: `/mnt/d/focalboard_TOOLS/data ` which is 
 ## Starting the App in WSL and including the restart comand after the Docker is shutdown/start
 
 ```
-docker run -it --name focalboard --restart unless-stopped -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
+docker run -d --name focalboard --restart unless-stopped -p 9001:8000 -v /mnt/d/focalboard_TOOLS/data:/opt/focalboard/data mattermost/focalboard
 ```
 
 # GET-DATA
